@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.turquoise {
+  color: turquoise;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+nav h1 {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: turquoise;
+}
+
+section {
+  padding: 2em;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  background-color: #e0f7fa;
+  padding: 3em 1em;
+  border-radius: 8px;
+}
+
+.hero button {
+  padding: 0.5em 1em;
+  background-color: turquoise;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apropos-content {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.apropos-content img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: turquoise;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.projets {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carte {
+  background-color: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.carte button {
+  margin-top: 1em;
+  background-color: turquoise;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.skills {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.skill-box {
+  flex: 1;
+  min-width: 250px;
+}
+
+progress {
+  width: 100%;
+  height: 10px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: turquoise;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form textarea {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: turquoise;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #eee;
+  margin-top: 3em;
+}
